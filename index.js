@@ -52,9 +52,7 @@ addFieldsBtn.addEventListener('click', function (e) {
 
     }
 
-});
-
-
+}); 
 
 // RESET
 resetBtn.addEventListener('click', function () {
@@ -88,8 +86,7 @@ listContainer.addEventListener('click', function (e) {
     }
 
     localStorage.setItem('liked', JSON.stringify(favorites));
-
-    // если включен фильтр "только избранное", надо заново отрисовать список
+    
     if (isFiltered) {
         const filtered = originalListItems.filter(item =>
             favorites.includes(item.dataset.id)
