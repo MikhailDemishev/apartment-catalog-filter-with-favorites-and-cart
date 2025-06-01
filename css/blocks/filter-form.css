@@ -1,0 +1,84 @@
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.filter-form__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 3px;
+}
+
+.filter-form__reset-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    padding: 0 5px 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.filter-form__reset-btn:hover {
+    color: #AD8361;
+}
+
+.filter-form__reset-btn:hover .filter-form__reset-btn-icon {
+        color: #AD8361;
+
+}
+
+.filter-form__shown,
+.filter-form__reset-btn-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+}
+
+.filter-form__reset-btn-icon {
+    color: #090909;
+}
+ 
+
+.filter-form__fields {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.filter-form__additional-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.filter-form__additional-filters-hidebar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.filter-form__additional-filters-showhide {
+    border: none;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.filter-form__additional-field-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.filter-form__additional-filters-text {
+    font-size: 14px;
+}

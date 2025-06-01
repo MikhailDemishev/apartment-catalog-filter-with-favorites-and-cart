@@ -1,0 +1,26 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid #AD8361;
+  border-radius: 60px;
+  color: #AD8361;
+  cursor: pointer;
+  display: block;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  padding: 12px;
+  width: 100%;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: #AD8361;
+  color: #FFFFFF;
+}
+  
+.btn:disabled {
+  color: rgba(173, 131, 97, 0.5);
+  background-color: rgba(243, 243, 243, 0.5);
+  border: 1px solid rgba(173, 131, 97, 0.5)
+}

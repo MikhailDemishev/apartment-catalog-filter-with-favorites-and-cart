@@ -1,0 +1,13 @@
+.catalog-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 16px;
+	width: 100%;
+	padding: 20px 0 30px;
+	margin: 0;
+	list-style: none;
+}
+
+.catalog-list__item {
+	min-height: 500px; 
+}

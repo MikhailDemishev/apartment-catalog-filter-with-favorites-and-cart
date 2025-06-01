@@ -1,0 +1,123 @@
+.header {
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    background-color: #EFEDE7;
+    z-index: 10;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 30px;
+    position: relative;
+}
+
+
+.header__burger {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.header__burger-icon {
+    color: #090909;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.header__favorites,
+.header__cart {
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+.header__favorites-count {
+    position: absolute;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+.header__cart-count {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    line-height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #AC8361;
+    padding: 3px;
+    top: -50%;
+    right: -50%;
+    cursor: pointer;
+
+}
+
+.header__favorites-icon,
+.header__cart-icon {
+    color: #AC8361;
+}
+
+
+.header__lang,
+.header__phone {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header__searchbar {
+    box-shadow: 0px 2px 20px 0px #0000001A;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.header__search-option {
+    padding: 36px 30px;
+    min-width: 210px;
+    display: flex;
+    gap: 4px;
+    border-bottom-left-radius: 20px;
+    background-color: #F3F3F3;
+    justify-content: center;
+}
+
+.header__search-option--right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+}
+
+.header__search-option--active {
+    background-color: #FFFFFF;
+    color: #AC8361;
+}
+
+.header__search-option-text {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+}
+
+.header__search-option-icon {
+    color: #AC8361;
+}

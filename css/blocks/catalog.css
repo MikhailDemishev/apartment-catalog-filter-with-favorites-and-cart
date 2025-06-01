@@ -1,0 +1,9 @@
+.catalog {
+    padding-top: 23px;
+}
+
+.catalog__inner {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    gap: 58px;
+}
